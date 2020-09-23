@@ -17,18 +17,3 @@ This creates a `dist` directory which contains the data source that can be mount
 During development, the following command can be used to watch the sources an rebuild them if they change:
 
     npm run watch
-    
-## Templating
-
-The supported template queries for now are:
-
-* Applications (All Applications)
-* AppName.ApplicationId (All Application Ids)
-* AppName.BusinessTransactions (All BTs for the Application Name)
-* AppName.Tiers (All Tiers for the Application Name)
-* AppName.Nodes (All Nodes for the Application Name)
-* AppName.TierName.BusinessTransactions (All BTs for a specific Tier)
-* AppName.TierName.BusinessTransactions.BusinessTransactionId (All BT Ids for a specific Tier)
-* AppName.TierName.BusinessTransactions.OnlyPerfData (All BTs for a specific Tier with Perfomance Data only)
-* AppName.TierName.ServiceEndpoints (All SEs for a specific Tier)
-* AppName.TierName.Nodes (All Nodes for a specific Tier)

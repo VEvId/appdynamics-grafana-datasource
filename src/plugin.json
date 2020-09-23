@@ -1,0 +1,40 @@
+{
+  "name": "AppDynamics-Handal",
+  "id": "handal-appdynamics-datasource",
+  "type": "datasource",
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Appdynamics datasource",
+    "author": {
+      "name": "PT Handal Informasi Teknology",
+      "url": "http://github.com/VEvId"
+    },
+    "logos": {
+      "small": "img/appdynamics.svg",
+      "large": "img/appdynamics.svg"
+    },
+    "links": [{
+        "name": "GitHub",
+        "url": "https://github.com/VEvId/appdynamics-grafana-datasource/"
+      },
+      {
+        "name": "MIT License",
+        "url": "https://github.com/VEvId/appdynamics-grafana-datasource/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [
+      {"name": "Showcase", "path": "img/screenshot-showcase.png"},
+      {"name": "Metric Editor", "path": "img/screenshot-metric_editor.png"}
+    ],
+    "version": "1.0.3",
+    "updated": "2020-09-23"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": []
+  }
+}
